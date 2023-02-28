@@ -9,7 +9,9 @@ module.exports = {
     static: './dist',
   },
   plugins: [
+    /* eslint-disable */
     new HtmlWebpackPlugin({
+    /* eslint-enable */
       template: './src/index.html',
     }),
   ],
