@@ -1,5 +1,7 @@
 const path = require('path');
+/* eslint-disable */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+/* eslint-enable */
 
 module.exports = {
   mode: 'development',
@@ -9,9 +11,7 @@ module.exports = {
     static: './dist',
   },
   plugins: [
-    /* eslint-disable */
     new HtmlWebpackPlugin({
-    /* eslint-enable */
       template: './src/index.html',
     }),
   ],
